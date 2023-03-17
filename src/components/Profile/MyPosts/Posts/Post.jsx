@@ -7,7 +7,7 @@ const Post = (props) => {
               <img src='https://vraki.net/sites/default/files/inline/images/29_21.jpg' />
               {props.message}
               <div>
-                <span>like</span>
+                <span>like</span> {props.likesCount}
               </div>
             </div>
     )
